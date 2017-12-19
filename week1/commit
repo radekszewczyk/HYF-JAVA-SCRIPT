@@ -1,0 +1,57 @@
+let hello = 'Hello World';
+var hello = ' Hello World! ';  
+console.log(hello);
+hello = 'Witaj Swiecie!'; 
+hello = 'Välkommen Världen!'; 
+
+var awesome = ("I am awesome");
+
+var x = 1; 
+console.log('The value of my variable x will be: 1');
+console.log(x);
+x = 25;
+console.log ('The value of my variable x will be: 38');
+console.log(x);
+
+var y = 'to be or not to be';
+cosnsole.log ('The value of my string will be: to be or not to be');
+console.log (y);
+y = 'that is the question';
+console.log (' The value of my string will be : that is the question');
+console.log (y);
+
+var z = 7.25; 
+console.log (z);
+var a = 7;
+console.log (a);
+var result = Math. max(a,z);
+console.log (result);
+
+let arr = []
+console.log ('The value of my array will be: unknow');
+console.log (arr);
+arr = [ 'duck', 'wolf', 'baby pig', 'Dann’s favorite animal'];
+console.log (arr );
+console.log (arr[3], arr[2]);
+
+let myString = 'this, is, a, test';
+console.log (myString);
+console.log (myString.length);
+
+let foo = 3;
+console.log ('The value of my variable foo is : ' + foo);
+console.log('type of foo');
+
+let fail = 4;
+console.log (' The value of my variable fail is: ' + fail);
+console.log ( 'type of fail' ); 
+
+let find = 5;
+console.log (' The value of my variable find is: ' + find);
+console.log ( 'type of find' );
+
+let foo = ' foo ';
+console.log (' The value of my variable foo is: ' + foo);
+console.log ( 'type of foo' );
+
+if (fail == fail) console.log (' SAME TYPE ');
